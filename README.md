@@ -1,12 +1,26 @@
-# React + Vite
+# Front-end Authentication for Cloud Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the front-end of the authentication project for a cloud service, responsible for providing the user interface and establishing communication with the back-end API.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Languages:** HTML, CSS, and JavaScript (React)
+- **State Management:** React Hooks (useState, useEffect)
+- **API Communication:** Fetch API or Axios
+- **Routing:** React Router
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Login screen with a form for user and password input
+- Registration screen for new users
+- Credential submission for authentication via API
+- Automatic redirection to the access page after successful login
+- Home page displaying available cloud services
+- Visual feedback for authentication errors or successful login
+
+## Ongoing Improvements
+
+- Form validation
+- Implementation of secure authentication
+- Enhancement of user session management
+- UI improvements for a better user experience
