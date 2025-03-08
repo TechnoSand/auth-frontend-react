@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './Loginform.css'
 
 const Loginform = () => {
   return (
-    <div>
+    <div className='loginform'>
       <form>
         <input type="text" />
-        
+        <><button type="submit">Send</button></>
       </form>
-      <><button type="submit">Send</button></>
+      
     </div>
   )
 }

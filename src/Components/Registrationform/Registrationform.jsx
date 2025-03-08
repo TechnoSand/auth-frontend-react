@@ -1,12 +1,14 @@
 import React from 'react'
+import './Registrationform.css'
 
 const Registrationform = () => {
   return (
-    <div>
-      <form>
+    <div className='regform'>
+      <form className='form'>
         <input type="text" />
+        <><button type="submit">Send</button></>
       </form>
-      <><button type="submit">Send</button></>
+      
     </div>
   )
 }
