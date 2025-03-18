@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Helvetica;
     box-sizing: border-box;
+
 }
 
 .block {
@@ -25,15 +26,19 @@
     background-size: cover; 
     background-position: center; 
     height: 100%;*/
-    background-color: rgba(29, 79, 153, 0.774);
+    background-color: rgba(255, 255, 255, 0.952);
     height: 100%;
 }
 
 .block .form {
     flex: 1; 
     padding: 20px;
-    background-color: white; 
+    background: rgba(255, 255, 255, 0.171);
+    backdrop-filter: blur(10px);
     height: 100%; 
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
 }
  
 .block .img .text{
